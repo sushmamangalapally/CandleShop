@@ -1,0 +1,33 @@
+#buy {
+  text-align: center; }
+
+.thumbnail img {
+  width: 150px;
+  height: 150px; }
+
+.container .ng-enter {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -ms-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  opacity: 0; }
+.container .ng-enter-active {
+  opacity: 1; }
+
+.candle .ng-enter {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -ms-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  opacity: 0;
+  left: 600px; }
+.candle .ng-enter-active {
+  opacity: 1;
+  left: 0; }
+
+.navbar-brand {
+  font-family: Permanent Market, sans-serif; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,14 @@
+.navbar-brand{
+    font-family: Permanent Marker, cursive;
+    font-size: 40px;
+}
+
+.navbar-nav{
+    font-family: Oswald, cursive;
+    font-size: 20px;
+}
+
+.caption{
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}

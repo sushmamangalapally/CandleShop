@@ -1,0 +1,47 @@
+$timeofsec: 0.5s linear all;
+
+#buy{
+  text-align: center;
+}
+
+.thumbnail{
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.container{
+  .ng-enter{
+    -webkit-transition: $timeofsec;
+    -moz-transition: $timeofsec;
+    -ms-transition: $timeofsec;
+    -o-transition: $timeofsec;
+    transition: $timeofsec;
+    opacity: 0;
+  }
+  .ng-enter-active{
+    opacity: 1;
+  }
+
+}
+
+.candle{
+  .ng-enter{
+    -webkit-transition: $timeofsec;
+    -moz-transition: $timeofsec;
+    -ms-transition: $timeofsec;
+    -o-transition: $timeofsec;
+    transition: $timeofsec;
+    opacity: 0;
+    left: 600px;
+  }
+  .ng-enter-active{
+    opacity: 1;
+    left: 0;
+  }
+}
+
+.navbar-brand{
+  font-family: Permanent Market, sans-serif;
+}

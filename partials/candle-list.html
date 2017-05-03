@@ -1,0 +1,28 @@
+<form role="form">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="search" ng-model="searchStr">
+    </div>
+</form>
+<div id="candleListWrapper">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 candle" ng-repeat="candle in candles | filter:searchStr">
+            <div class="thumbnail">
+                <img src="{{candle.imgUrl}}" alt="{{candle.name}}">
+                <div class="caption">
+                    <h3>{{candle.name}}</h3>
+                    <p>{{candle.descrip}}</p>
+                    <p>Made In: {{candle.madein}}</p>
+                    <p>Made when: {{candle.when}}</p>
+                    <p>
+                        <span>{{candle.price | currency}}</span>
+                    </p>
+                    <button class="btn btn-info" ng-click="addToCart(candle)">Add to Cart</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
